@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/riaconsultant/Bootstrap_Practice/issues"
   },
-  "homepage": "https://github.com/riaconsultant/Bootstrap_Practice#readme"
+  "homepage": "https://github.com/riaconsultant/Bootstrap_Practice#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }

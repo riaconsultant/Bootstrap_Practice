@@ -1,0 +1,6 @@
+.mybox{
+    background-color: brown;
+    margin: 20px 10px;
+    padding: 20px;
+    min-height: 200px;
+}
