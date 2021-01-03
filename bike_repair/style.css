@@ -1,0 +1,142 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(red,yellow);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;   
+    border-bottom: 1px solid lightgrey; 
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1, .card2, .card3 {
+    padding: 10px, 20px;
+    box-sizing: border-box;
+}
+
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.hearbox1{
+    flex: 2;
+}
+.hearbox2{
+    flex: 1;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.cards p {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin: 20px 30px;
+}
+.cards a{
+    text-decoration: none;
+}
+.mybtn{
+    /* background-color: white; */
+    color: pink;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px #803636ea;
+    border: 1px solid white;
+}
+a.mybtn{
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+a.mybtn:hover{
+    background-color: blue;
+    transition-duration: 1s;
+}
+nav a.mybtn{
+    margin-left: 30px;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.navbtn{
+    background-color: #803636ea;
+    padding: 11px 25px;
+    width: 108px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+a{
+    text-decoration: none;
+}
+.dropdown-box{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.navbtn:hover .dropdown-box{
+    display: block;
+}
+.dropdown-box .navbtn{
+    background-color: rgb(92, 92, 92);
+    width: 120px;
+}
+.dropdown-box .navbtn:hover{
+    background-color: rgb(40, 119, 94);
+    transition-duration: 500ms;
+}
